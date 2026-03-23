@@ -1,0 +1,39 @@
+/* Reset some default browser styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff8f2;
+    color: #333;
+}
+
+/* Center content */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Heading styling */
+h1 {
+    color: #e67e22;
+    margin-top: 40px;
+    font-size: 2.5rem;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    width: 60%;
+    text-align: center;
+}
+
+/* Divider styling */
+hr {
+    width: 50%;
+    margin: 30px auto;
+    border: none;
+    height: 2px;
+    background-color: #ccc;
+}
